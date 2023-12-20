@@ -22,9 +22,9 @@ const Brands = () => {
     console.log(brands);
     
     return (
-        <div>
+        <div className="mt-4">
             {
-                brands.map(brand => <p key={brand}><button className="btn w-full">{brand}</button></p>)
+                brands.map(brand => <p className="mb-1" key={brand}><button className="btn w-full">{brand}</button></p>)
             }
         </div>
     );

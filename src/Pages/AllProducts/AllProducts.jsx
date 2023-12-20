@@ -4,7 +4,7 @@ import Navbar from "../../Shared/Navbar/Navbar/Navbar";
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import { FaSearch } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
-import Brands from "../../Components/Brands/Brands";
+
 
 
 const AllProducts = () => {
@@ -12,6 +12,7 @@ const AllProducts = () => {
     const [searchValue, setSearchValue] = useState("")
     const [smartphone, setSmartPhone] = useState(false)
     const [tablet, setTablet] = useState(false)
+    const [selectedBrand, setSelectedBrand] = useState("")
     const { data: allProducts = [], refetch } = useQuery({
         queryKey: ["allProducts"],
         queryFn: async () => {
@@ -20,6 +21,21 @@ const AllProducts = () => {
             return data
         }
     })
+    const { data: brandsName = [] } = useQuery({
+        queryKey: ["brandsName"],
+        queryFn: async () => {
+            const res = await axios.get(`http://localhost:5000/mobiles`)
+            const data = await res.data
+            return data
+        }
+    })
+    let brands = []
+    const allBrands = brandsName.map(brand => brand.brand)
+    for (const brand of allBrands) {
+        if (!brands.includes(brand)) {
+            brands.push(brand);
+        }
+    }
     useEffect(() => {
         refetch()
     }, [searchValue, refetch])
@@ -29,6 +45,7 @@ const AllProducts = () => {
         setSearchValue(`?brand=${searchResult}`);
         setTablet(false)
         setSmartPhone(false)
+        setSelectedBrand("")
     };
     const handlePrice = (e) => {
         e.preventDefault()
@@ -38,6 +55,7 @@ const AllProducts = () => {
         setSearchValue(`?min=${min}&max=${max}`)
         setTablet(false)
         setSmartPhone(false)
+        setSelectedBrand("")
 
         // console.log(min, max);
     }
@@ -47,6 +65,7 @@ const AllProducts = () => {
         setSearchValue(`?memory=${memory}`);
         setTablet(false)
         setSmartPhone(false)
+        setSelectedBrand("")
         // console.log(memory);
     }
     const handleProcessor = (e) => {
@@ -54,6 +73,7 @@ const AllProducts = () => {
         setSearchValue(`?processor=${processor}`)
         setTablet(false)
         setSmartPhone(false)
+        setSelectedBrand("")
         // console.log(processor);
     }
     const handleCheckboxChange = (e) => {
@@ -63,11 +83,18 @@ const AllProducts = () => {
             setSmartPhone(!smartphone)
             setSearchValue(`?type=${checked}`)
             setTablet(false)
-        }else if (checked === "Tablet") {
+            setSelectedBrand("")
+        } else if (checked === "Tablet") {
             setTablet(!tablet)
             setSearchValue(`?type=${checked}`)
             setSmartPhone(false)
+            setSelectedBrand("")
         }
+    }
+
+    const handleBrand = (brand) => {
+        setSearchValue(`?brand=${brand}`)
+        setSelectedBrand(brand)
     }
     // console.log(searchValue);
 
@@ -122,7 +149,11 @@ const AllProducts = () => {
                             <input onChange={handleCheckboxChange} type="checkbox" value="Tablet" checked={tablet} className="checkbox" /> <span>Tablet</span>
                         </div>
                     </div>
-                    <Brands></Brands>
+                    <div className="mt-4">
+                        {
+                            brands.map(brand => <p className="mb-1" key={brand}><button onClick={() => handleBrand(brand)} className={selectedBrand == brand ? "bg-purple-600 btn text-white font-bold w-full" : "btn w-full"}>{brand}</button></p>)
+                        }
+                    </div>
                 </div>
                 <div className="flex-[3] grid grid-cols-3 gap-5">
                     {
