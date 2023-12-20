@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "brand": "Apple",
+        "img": "https://img.freepik.com/free-vector/realistic-grey-smartphone-with-three-cameras_52683-29937.jpg?t=st=1703052604~exp=1703053204~hmac=f63848056692f84da13dfae13f36df85c22a6f1ccf6fe69cc2220e0c7bc5e210",
+        "name": "iPhone 13",
+        "price": 799.99,
+        "type": "Smartphone",
+        "processor": "A15 Bionic",
+        "memory": "64GB",
+        "OS": "iOS 15"
+      },
+      {
+        "id": 2,
+        "brand": "Samsung",
+        "name": "Galaxy S21 Ultra",
+        "price": 1099.99,
+        "type": "Smartphone",
+        "processor": "Exynos 2100",
+        "memory": "256GB",
+        "OS": "Android 12",
+        "img": "https://img.freepik.com/free-vector/mobile-phones-illustration_1319-183.jpg?t=st=1703052961~exp=1703053561~hmac=1a4d03d031e132310506f9b86730e42562906eb84eeca4ef0dadd2221fab30af"
+      },
+      {
+        "id": 3,
+        "brand": "Google",
+        "name": "Google Pixel 6 Pro",
+        "price": 899.99,
+        "type": "Smartphone",
+        "processor": "Google Tensor",
+        "memory": "128GB",
+        "OS": "Android 12",
+        "img": "https://img.freepik.com/premium-psd/three-smartphone-screen-mockup_131141-419.jpg"
+      },
+      {
+        "id": 4,
+        "brand": "LG",
+        "name": "LG Stylo 6",
+        "price": 249.99,
+        "type": "Smartphone",
+        "processor": "MediaTek Helio P35",
+        "memory": "64GB",
+        "OS": "Android 10",
+        "img": "https://www.mobiledokan.co/wp-content/uploads/2020/04/LG-Velvet.jpg"
+      },
+      {
+        "id": 5,
+        "brand": "Xiaomi",
+        "name": "Xiaomi Mi 11",
+        "price": 699.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 888",
+        "memory": "128GB",
+        "OS": "MIUI 12",
+        "img": "https://imageio.forbes.com/specials-images/imageserve/5ef57d7c4fa6220006670333/The-LG-Velvet-with-its-Dual-Screen-accessory-/960x0.jpg?format=jpg&width=960"
+      },
+      {
+        "id": 6,
+        "brand": "Xiaomi",
+        "name": "Xiaomi Redmi 9A",
+        "price": 149.99,
+        "type": "Smartphone",
+        "processor": "Mediatek Helio G25",
+        "memory": "32GB",
+        "OS": "MIUI 12",
+        "img": "https://gawaly.net/wp-content/uploads/2019/06/%D9%81%D8%AA%D8%AD-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84-%D8%B4%D8%A7%D9%88%D9%85%D9%8A-%D9%85%D9%8A-9-se.jpg"
+      },
+      {
+        "id": 7,
+        "brand": "Nokia",
+        "name": "Nokia Lumia 1020",
+        "price": 299.99,
+        "type": "Smartphone",
+        "processor": "Qualcomm Snapdragon S4 Plus",
+        "memory": "32GB",
+        "OS": "Windows Phone 8",
+        "img": "https://images.expertreviews.co.uk/wp-content/uploads/2022/06/best_nokia_phone_uk_2022_smartphones.jpg"
+      },
+      {
+        "id": 8,
+        "brand": "Sony",
+        "name": "Sony Xperia 10 III",
+        "price": 699.99,
+        "type": "Smartphone",
+        "processor": "Qualcomm Snapdragon 690",
+        "memory": "64GB",
+        "OS": "Android 11",
+        "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-2.jpg"
+      }
+]

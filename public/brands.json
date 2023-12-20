@@ -1,0 +1,10 @@
+[
+    { "brand": "Apple", "id": 1, "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Apple_Store_logo.svg/2048px-Apple_Store_logo.svg.png" },
+    { "brand": "Nokia", "id": 2, "img": "https://www.gizchina.com/wp-content/uploads/images/2023/02/Nokia-logo.webp" },
+    { "brand": "Sony", "id": 3, "img": "https://i0.wp.com/www.dafontfree.io/wp-content/uploads/2021/08/Sony-Logo-Font.jpg?fit=1100%2C800&ssl=1" },
+    { "brand": "Samsung", "id": 4, "img": "https://images.samsung.com/is/image/samsung/assets/in/about-us/brand/logo/mo/256_144_3.png?$512_N_PNG$" },
+    { "brand": "LG", "id": 5, "img": "https://static.vecteezy.com/system/resources/previews/020/927/090/non_2x/lg-logo-brand-phone-symbol-with-name-white-design-south-korea-mobile-illustration-with-red-background-free-vector.jpg" },
+    { "brand": "Google", "id": 6, "img": "https://www.shutterstock.com/image-vector/google-pixel-log-brand-portable-260nw-2377054495.jpg" },
+    { "brand": "Xiaomi", "id": 7, "img": "https://1000logos.net/wp-content/uploads/2021/08/Xiaomi-logo.png" },
+    { "brand": "BlackBerry", "id": 8, "img": "https://1000logos.net/wp-content/uploads/2020/05/BlackBerry-logo.jpg" }
+]

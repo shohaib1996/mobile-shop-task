@@ -1,0 +1,802 @@
+[
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/premium-vector/new-phone-front-white-back-with-dual-camera-drawing-format-isolated-white-background_117553-334.jpg?size=626&ext=jpg&ga=GA1.2.165120449.1696819706&semt=ais",
+    "name": "iPhone 13 Pro",
+    "price": 999.99,
+    "type": "Smartphone",
+    "processor": "A15 Bionic",
+    "memory": "128GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/realistic-grey-smartphone-with-three-cameras_52683-29937.jpg?t=st=1703052604~exp=1703053204~hmac=f63848056692f84da13dfae13f36df85c22a6f1ccf6fe69cc2220e0c7bc5e210",
+    "name": "iPhone 13",
+    "price": 799.99,
+    "type": "Smartphone",
+    "processor": "A15 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/smartphone-with-different-views-realistic-style_23-2147849864.jpg?w=740&t=st=1703052645~exp=1703053245~hmac=caaaba57c55385b4823e09bb7bdd912eef727ccbd8f580e8ebb93d4540199518",
+    "name": "iPhone SE",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "A14 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/premium-vector/iphone-14-pro-max-vector-purple_571319-7.jpg",
+    "name": "iPhone 12 Mini",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "A14 Bionic",
+    "memory": "128GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-psd/creative-smartphone-mockup_1310-758.jpg?w=740&t=st=1703052734~exp=1703053334~hmac=550f99d77f4ef9b886f8a33112a64418c2dfdfaa17d1a1f0771bd16ec62be174",
+    "name": "iPhone 11",
+    "price": 599.99,
+    "type": "Smartphone",
+    "processor": "A13 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/front-back-modern-smartphone_23-2147698165.jpg?t=st=1703052604~exp=1703053204~hmac=41b1c7cf5e063c33504c2b1c9e5673d731e15c93a523ef18a6c84f71ad418078",
+    "name": "iPhone XR",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "A12 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/realistic-smartphone-with-black-back-case_23-2148355781.jpg?t=st=1703052604~exp=1703053204~hmac=eff0d1892e3e3b84e2c146785e5c6177e52d671a285e14747f6d0a57d742cc87",
+    "name": "iPhone 8 Plus",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "A11 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/premium-psd/realistic-iphone-14-pro-max-3d-smartphone-screen-mockup-template-with-editable-background-psd_349001-545.jpg",
+    "name": "iPhone SE (2020)",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "A13 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/realistic-white-smartphone-front-back_52683-29903.jpg?w=740&t=st=1703052882~exp=1703053482~hmac=34680d88d8fdbffff081ebc2962e3a1ce87ea43fa3deba483e8c9cc0ed67f9dd",
+    "name": "iPhone X",
+    "price": 799.99,
+    "type": "Smartphone",
+    "processor": "A11 Bionic",
+    "memory": "64GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Apple",
+    "img": "https://img.freepik.com/free-vector/smartphone-with-different-views-realistic-style_23-2147852782.jpg?t=st=1703052604~exp=1703053204~hmac=a4c7be04eadafa55c4d870a001ffcc9885f2f50422c9dca4fe462e38c7fe56cd",
+    "name": "iPhone 7",
+    "price": 449.99,
+    "type": "Smartphone",
+    "processor": "A10 Fusion",
+    "memory": "32GB",
+    "OS": "iOS 15"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S21 Ultra",
+    "price": 1099.99,
+    "type": "Smartphone",
+    "processor": "Exynos 2100",
+    "memory": "256GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/mobile-phones-illustration_1319-183.jpg?t=st=1703052961~exp=1703053561~hmac=1a4d03d031e132310506f9b86730e42562906eb84eeca4ef0dadd2221fab30af"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold 3",
+    "price": 1799.99,
+    "type": "Foldable",
+    "processor": "Snapdragon 888",
+    "memory": "512GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-psd/smartphone-skin-mock-up-isolated_1310-1582.jpg?t=st=1703052961~exp=1703053561~hmac=24759eb00f7464a401374569280683f4266e63bccefabb5d50a9fa0832378ddd"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S21",
+    "price": 799.99,
+    "type": "Smartphone",
+    "processor": "Exynos 2100",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/realistic-phones-different-views_52683-28436.jpg?t=st=1703052961~exp=1703053561~hmac=0a764e604985ad91a19104e1776352df57fdae4d217d1dfd13a54b13c943f487"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 20 Ultra",
+    "price": 1299.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 865+",
+    "memory": "256GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/front-back-modern-smartphone_23-2147698165.jpg?t=st=1703052961~exp=1703053561~hmac=3ded2249f14d8d1a56703d768464a76dec7f98cc700f71d9e3bed4c4371ddaaa"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A72",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 720G",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/premium-vector/realistic-smartphone-with-back-illustration-vector_174496-717.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S20 FE",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 865",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/smartphone-with-different-views-realistic-style_23-2147849864.jpg?t=st=1703052961~exp=1703053561~hmac=be3ac7b6e2e1fcbfb10dc65946cbd362f6be204c5b10105b4a7b8bca48ccf596"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A52",
+    "price": 449.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 720G",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/premium-vector/colorful-smartphone_66219-1949.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip 3",
+    "price": 999.99,
+    "type": "Foldable",
+    "processor": "Snapdragon 888",
+    "memory": "256GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/premium-vector/colorful-smartphone_66219-1949.jpg"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A32",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio G80",
+    "memory": "64GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/smartphone-lock-screens-with-traveler-winter-mountains_107791-6912.jpg?t=st=1703053222~exp=1703053822~hmac=2378fcbd20a217bfd2e42333bc5df6dca5a07b662b2d7f0ad4a02fb6d8508591"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy XCover Pro",
+    "price": 499.99,
+    "type": "Rugged Smartphone",
+    "processor": "Exynos 9611",
+    "memory": "64GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-psd/smartphone-mockup_1310-916.jpg?w=740&t=st=1703053291~exp=1703053891~hmac=b272d5768058770e9b61c274df9b61dc317a99553e7bc2a194bc6c47c1f71ade"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 6 Pro",
+    "price": 899.99,
+    "type": "Smartphone",
+    "processor": "Google Tensor",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/premium-psd/three-smartphone-screen-mockup_131141-419.jpg"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 6",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Google Tensor",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-psd/smartphone-skin-mock-up-isolated_1310-1582.jpg?t=st=1703053349~exp=1703053949~hmac=4dc038b87df2db922a4d36a3dfa4d6108112dc7406aca306db520e99a04103ce"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 5a",
+    "price": 449.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 765G",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://img.freepik.com/free-vector/mobile-wallpapers-circles-colorful-squares_23-2147660615.jpg?t=st=1703053349~exp=1703053949~hmac=0de059f150b93d0b4553a6ba3409aff8cf4209a8b0eb572394f45d70c2e5f78e"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 5",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 765G",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://gadgetandphone.com/public/uploads/all/AMG1oNezPap64iKuwKyoxRJ469CkF4qPllZjp4Xy.jpg"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4a",
+    "price": 349.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 730G",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://m.media-amazon.com/images/I/81-fNmQqlLL._AC_SL1500_.jpg"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4",
+    "price": 599.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 855",
+    "memory": "128GB",
+    "OS": "Android 12",
+    "img": "https://i5.walmartimages.com/seo/Google-Pixel-4-G020M-64GB-5-7-inch-Android-GSM-Only-No-CDMA-Factory-Unlocked-4G-LTE-Smartphone-International-Version-Clearly-White_00f52969-aa68-4876-a3b2-5d97dc711d73.95c522951c6ad217451d33fbe10e90c2.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 3a",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 670",
+    "memory": "64GB",
+    "OS": "Android 12",
+    "img": "https://www.plug.tech/cdn/shop/products/4aWhite2_500x.jpg?v=1624118818"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 3",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 845",
+    "memory": "64GB",
+    "OS": "Android 12",
+    "img": "https://www.mobilehub.co.ke/wp-content/uploads/2023/09/google-pixel-5-600x600-1.jpg"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 2",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 835",
+    "memory": "64GB",
+    "OS": "Android 12",
+    "img": "https://i5.walmartimages.com/seo/Google-Pixel-4-G020M-64GB-5-7-inch-Android-GSM-Only-No-CDMA-Factory-Unlocked-4G-LTE-Smartphone-International-Version-Clearly-White_00f52969-aa68-4876-a3b2-5d97dc711d73.95c522951c6ad217451d33fbe10e90c2.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 821",
+    "memory": "32GB",
+    "OS": "Android 12",
+    "img": "https://c1.neweggimages.com/productimage/nb640/A4SAS2102115TROw.jpg"
+  },
+  {
+    "brand": "LG",
+    "name": "LG V60 ThinQ",
+    "price": 799.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 865",
+    "memory": "128GB",
+    "OS": "Android 11",
+    "img": "https://www.mobilebazar.com.bd/assets/img/lg-rainbow.webp"
+  },
+  {
+    "brand": "LG",
+    "name": "LG G8 ThinQ",
+    "price": 599.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 855",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://amarprice.com/wp-content/uploads/LG-Velvet-price-in-bangladesh.jpg"
+  },
+  {
+    "brand": "LG",
+    "name": "LG Velvet",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 765G",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://www.bdstall.com/asset/product-image/giant_165718.jpeg"
+  },
+  {
+    "brand": "LG",
+    "name": "LG G7 ThinQ",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 845",
+    "memory": "64GB",
+    "OS": "Android 9",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2020/04/LG-Velvet-Black.jpg"
+  },
+  {
+    "brand": "LG",
+    "name": "LG Stylo 6",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "MediaTek Helio P35",
+    "memory": "64GB",
+    "OS": "Android 10",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2020/04/LG-Velvet.jpg"
+  },
+  {
+    "brand": "LG",
+    "name": "LG K92 5G",
+    "price": 349.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 690",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://images.unsplash.com/photo-1599016012665-13b74bb3b528?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwcGl4ZWx8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "brand": "LG",
+    "name": "LG K51S",
+    "price": 199.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio P35",
+    "memory": "64GB",
+    "OS": "Android 10",
+    "img": "https://media.us.lg.com/transform/5545403a-df6b-4051-947a-25f74384b4b9/phones-discontinued_herobanner_900x600"
+  },
+  {
+    "brand": "LG",
+    "name": "LG V50 ThinQ 5G",
+    "price": 899.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 855",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/301034/1.jpg?6675"
+  },
+  {
+    "brand": "LG",
+    "name": "LG G6",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 821",
+    "memory": "64GB",
+    "OS": "Android 9",
+    "img": "https://www.zdnet.com/a/img/resize/ca73852a2d2cf6e88c7d92717656c8b0bb156151/2020/06/19/6209af92-19ad-459c-97c8-92e77207572b/lg-velvet-main-1.jpg?auto=webp&width=1280"
+  },
+  {
+    "brand": "LG",
+    "name": "LG K40",
+    "price": 149.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio P22",
+    "memory": "32GB",
+    "OS": "Android 9",
+    "img": "https://fdn.gsmarena.com/imgroot/reviews/20/lg-velvet/review24/lifestyle/-727w2/gsmarena_033.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 11",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 888",
+    "memory": "128GB",
+    "OS": "MIUI 12",
+    "img": "https://imageio.forbes.com/specials-images/imageserve/5ef57d7c4fa6220006670333/The-LG-Velvet-with-its-Dual-Screen-accessory-/960x0.jpg?format=jpg&width=960"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi Note 11 Pro",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio G96",
+    "memory": "64GB",
+    "OS": "MIUI 12",
+    "img": "https://images.expertreviews.co.uk/wp-content/uploads/2022/09/best_xiaomi_phone_uk_2022_smartphones.jpeg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Poco X3 Pro",
+    "price": 349.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 860",
+    "memory": "128GB",
+    "OS": "MIUI 12",
+    "img": "https://media.karousell.com/media/photos/products/2022/6/2/xiaomi_redmi_note_10_pro_6128g_1654151357_64dac0d9_progressive.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 11 Lite",
+    "price": 449.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 732G",
+    "memory": "64GB",
+    "OS": "MIUI 12",
+    "img": "https://images.anandtech.com/doci/16582/2_678x452.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Black Shark 4",
+    "price": 599.99,
+    "type": "Gaming Smartphone",
+    "processor": "Snapdragon 870",
+    "memory": "128GB",
+    "OS": "Joy UI 12",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2023/09/Xiaomi-13-Lite.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Mix 4",
+    "price": 899.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 888+",
+    "memory": "256GB",
+    "OS": "MIUI 12",
+    "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/device/1696490781Xiaomi-13t-specs-800x800_one_to_one.png?VersionId=gNdCcHl5Gi5XGK4QkEV3Ft6UxSBXi7xZ?size=210:210"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi 10",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "MediaTek Helio G88",
+    "memory": "64GB",
+    "OS": "MIUI 12",
+    "img": "https://images.fonearena.com/blog/wp-content/uploads/2021/10/Redmi-Note-11-2-1024x851.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10T Pro",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 865",
+    "memory": "128GB",
+    "OS": "MIUI 12",
+    "img": "https://www.gadgettree.co.uk/wp-content/uploads/2023/09/41TdkssSZ1L.jpg"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note 10",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 730G",
+    "memory": "128GB",
+    "OS": "MIUI 12",
+    "img": "https://images.unsplash.com/photo-1560677519-9e47f8731d07?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHhpYW9taXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi 9A",
+    "price": 149.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio G25",
+    "memory": "32GB",
+    "OS": "MIUI 12",
+    "img": "https://gawaly.net/wp-content/uploads/2019/06/%D9%81%D8%AA%D8%AD-%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84-%D8%B4%D8%A7%D9%88%D9%85%D9%8A-%D9%85%D9%8A-9-se.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Key2",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 660",
+    "memory": "64GB",
+    "OS": "BlackBerry OS",
+    "img": "https://fdn2.gsmarena.com/vv/pics/blackberry/blackberry-priv-5.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Evolve X",
+    "price": 599.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 660",
+    "memory": "64GB",
+    "OS": "Android 8.1",
+    "img": "https://m.media-amazon.com/images/I/81ElFKKXg2L.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Motion",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 625",
+    "memory": "32GB",
+    "OS": "Android 7.1",
+    "img": "https://m.media-amazon.com/images/I/81v6Za+pOzL.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry DTEK60",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 820",
+    "memory": "32GB",
+    "OS": "Android 6.0",
+    "img": "https://i.itworldcanada.com/wp-content/uploads/2019/01/blackberry-key2-le-batch-2.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry KEYone",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 625",
+    "memory": "32GB",
+    "OS": "Android 7.1",
+    "img": "https://cdn.mobilesyrup.com/wp-content/uploads/2023/03/unihertz-titan-slim-20230301-header-scaled.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Priv",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 808",
+    "memory": "32GB",
+    "OS": "Android 5.1",
+    "img": "https://storage.googleapis.com/stateless-gstylemag-com/2023/01/41bb0913-20230108_161534.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Passport",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon 801",
+    "memory": "32GB",
+    "OS": "BlackBerry OS 10",
+    "img": "https://cdn.mobilesyrup.com/wp-content/uploads/2023/03/unihertz-titan-slim-20230301-toolbox-scaled.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Classic",
+    "price": 349.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon S4 Plus",
+    "memory": "16GB",
+    "OS": "BlackBerry OS 10",
+    "img": "https://www.digitaltrends.com/wp-content/uploads/2018/11/blackberry-key2-le-full-review-1.jpg?fit=1500%2C1000&p=1"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Z30",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon S4 Pro",
+    "memory": "16GB",
+    "OS": "BlackBerry OS 10",
+    "img": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2018/06/IMG_2527.jpg"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Q10",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "Snapdragon S4",
+    "memory": "16GB",
+    "OS": "BlackBerry OS 10",
+    "img": "https://www.digitaltrends.com/wp-content/uploads/2018/11/blackberry-key2-le-full-review-1.jpg?fit=1500%2C1000&p=1"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1020",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon S4 Plus",
+    "memory": "32GB",
+    "OS": "Windows Phone 8",
+    "img": "https://images.expertreviews.co.uk/wp-content/uploads/2022/06/best_nokia_phone_uk_2022_smartphones.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 920",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon S4 Plus",
+    "memory": "32GB",
+    "OS": "Windows Phone 8",
+    "img": "https://images.ctfassets.net/wcfotm6rrl7u/54b8qK9HLwHnwTWy1qBUZS/10fdb7640862908bfcf8b1cc5b85dcfa/nokia_C21_plus-dark_cyan-front_back-IN.png"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1520",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 800",
+    "memory": "32GB",
+    "OS": "Windows Phone 8.1",
+    "img": "https://naijatechprice.com/wp-content/uploads/2023/01/nokia-c21-plus.jpg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 930",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 800",
+    "memory": "32GB",
+    "OS": "Windows Phone 8.1",
+    "img": "https://ksa.axiomtelecom.com/wp-content/uploads/2022/08/NOKIA-C21-PLUS-4G.jpeg"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 635",
+    "price": 149.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 400",
+    "memory": "8GB",
+    "OS": "Windows Phone 8.1",
+    "img": "https://www.cnet.com/a/img/resize/16b134df19acc9de77f2dc85c9311713d932fa46/hub/2023/08/16/8276b781-45fe-4cf3-876c-b7720de8b4e2/nokia-g310-5g.png?auto=webp&fit=crop&height=675&width=1200"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1320",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 400",
+    "memory": "8GB",
+    "OS": "Windows Phone 8",
+    "img": "https://images.ctfassets.net/wcfotm6rrl7u/1NVOxVFFrgxGtIGlIL61YB/c78ee3e871efa62773c3a00c98b0f45b/OfferVisual-smartphones-nokia_C300.png"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 830",
+    "price": 199.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 400",
+    "memory": "16GB",
+    "OS": "Windows Phone 8.1",
+    "img": "https://www.cnet.com/a/img/resize/210be09d018357e4758f6fa541fcc97e3863ae07/hub/2014/02/11/efc058fa-9529-11e3-a24e-d4ae52e62bcc/Nokia_Lumia_Icon_35835068_0040_11.jpg?auto=webp&width=1200"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 520",
+    "price": 99.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon S4",
+    "memory": "8GB",
+    "OS": "Windows Phone 8",
+    "img": "https://www.cnet.com/a/img/resize/dfb2008c3ca949e16d70873d323c487f48115401/hub/2013/05/13/f01a00ac-9529-11e3-a24e-d4ae52e62bcc/35760294_Nokia_Lumia_928-6653.jpg?auto=webp&width=1200"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 625",
+    "price": 149.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon S4 Plus",
+    "memory": "8GB",
+    "OS": "Windows Phone 8",
+    "img": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/7/24/1406189846538/6bdfcc0a-fc80-4545-bbff-5460eb3ac8cf-1024x768.jpeg?width=300&quality=45&auto=format&fit=max&dpr=2&s=1a68c934be9c2b2ac1501444e5b05dbf"
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 730",
+    "price": 199.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 400",
+    "memory": "8GB",
+    "OS": "Windows Phone 8.1",
+    "img": "https://cdn.neowin.com/news/images/uploaded/2014/11/lumia-history-20-830_story.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia 1 III",
+    "price": 1099.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 888",
+    "memory": "256GB",
+    "OS": "Android 11",
+    "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-2.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia 5 III",
+    "price": 999.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 888",
+    "memory": "128GB",
+    "OS": "Android 11",
+    "img": "https://media.istockphoto.com/id/1152420163/photo/sony-xz-premium-phone-on-the-wooden-table-with-xperia-logo.jpg?s=612x612&w=0&k=20&c=Y01iZ_i-FXOk7Jm1iCOipSR4MRjVdmupEcpV_qbBD8U="
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia 10 III",
+    "price": 699.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 690",
+    "memory": "64GB",
+    "OS": "Android 11",
+    "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-2.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia L4",
+    "price": 299.99,
+    "type": "Smartphone",
+    "processor": "Mediatek MT6762",
+    "memory": "64GB",
+    "OS": "Android 10",
+    "img": "https://sony.scene7.com/is/image/sonyglobalsolutions/PDX-224_Primary-Image_Green_hyperc?$categorypdpnav$&fmt=png-alpha"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia XZ3",
+    "price": 499.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 845",
+    "memory": "64GB",
+    "OS": "Android 9",
+    "img": "https://tomatosmartphone.it/wp-content/uploads/2023/03/sonyxperia5ivgreen.png"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia XA2 Ultra",
+    "price": 349.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 630",
+    "memory": "32GB",
+    "OS": "Android 8",
+    "img": "https://lzd-img-global.slatic.net/g/p/67bb008b9be0d846994964bc9e780865.jpg_720x720q80.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia 10 II",
+    "price": 599.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 665",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Sony-Xperia-5-III-Black.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia XZ2 Compact",
+    "price": 399.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 845",
+    "memory": "64GB",
+    "OS": "Android 8",
+    "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-1.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia 5 II",
+    "price": 899.99,
+    "type": "Smartphone",
+    "processor": "Qualcomm Snapdragon 865",
+    "memory": "128GB",
+    "OS": "Android 10",
+    "img": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-1.jpg"
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia XA1",
+    "price": 249.99,
+    "type": "Smartphone",
+    "processor": "Mediatek Helio P20",
+    "memory": "32GB",
+    "OS": "Android 7",
+    "img": "https://fdn.gsmarena.com/imgroot/reviews/23/sony-xperia-1-v/lifestyle/-1200w5/gsmarena_043.jpg"
+  }
+]
