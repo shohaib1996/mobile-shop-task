@@ -16,16 +16,6 @@ const NavbarLinks = () => {
             </li>
             <li>
                 <NavLink
-                    to="/all-brands"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "active" : ""
-                    }
-                >
-                   All Brands
-                </NavLink>
-            </li>
-            <li>
-                <NavLink
                     to="/all-products"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""

@@ -5,10 +5,10 @@ import { FaCartPlus, FaEye, FaRegHeart } from "react-icons/fa";
 
 
 const ProductCard = ({ product }) => {
-    const { name, price, img, memory, processor, type } = product
+    const { name, price, img, memory, processor, type, OS } = product
 
     return (
-        <div className="group card relative bg-base-100 shadow-xl border-2">
+        <div className="group card relative bg-base-100 shadow-xl border-2 max-h-[550px]">
             <figure><img className="w-full h-[280px]" src={img} alt="Shoes" /></figure>
             <div className="hidden bg-black rounded-xl bg-opacity-30 w-full absolute h-full card-actions justify-end group-hover:flex">
             </div>
@@ -21,6 +21,7 @@ const ProductCard = ({ product }) => {
                     </div>
                     <p>Processor: {processor}</p>
                     <p className="font-bold">{type}</p>
+                    <p className="text-purple-500">OS: {OS}</p>
                 </div>
                 <div className="absolute flex items-center gap-3 justify-center top-1/2 left-8 transform transition ease-in-out duration-300 translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
                     <button className="btn btn-primary">
