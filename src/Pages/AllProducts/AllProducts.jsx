@@ -4,6 +4,7 @@ import Navbar from "../../Shared/Navbar/Navbar/Navbar";
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import { FaSearch } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
+import Brands from "../../Components/Brands/Brands";
 
 
 const AllProducts = () => {
@@ -26,6 +27,8 @@ const AllProducts = () => {
         const searchResult = searchRef.current.value;
         searchRef.current.value = "";
         setSearchValue(`?brand=${searchResult}`);
+        setTablet(false)
+        setSmartPhone(false)
     };
     const handlePrice = (e) => {
         e.preventDefault()
@@ -33,29 +36,44 @@ const AllProducts = () => {
         const min = form.min.value
         const max = form.max.value
         setSearchValue(`?min=${min}&max=${max}`)
+        setTablet(false)
+        setSmartPhone(false)
 
-        console.log(min, max);
+        // console.log(min, max);
     }
     const handleMemory = (e) => {
         e.preventDefault()
         const memory = e.target.value;
         setSearchValue(`?memory=${memory}`);
+        setTablet(false)
+        setSmartPhone(false)
         // console.log(memory);
     }
     const handleProcessor = (e) => {
-        e.preventDefault()
         const processor = e.target.value
         setSearchValue(`?processor=${processor}`)
+        setTablet(false)
+        setSmartPhone(false)
         // console.log(processor);
     }
     const handleCheckboxChange = (e) => {
-        e.preventDefault()
         const checked = e.target.value
         console.log(checked);
+        if (checked === "Smartphone") {
+            setSmartPhone(!smartphone)
+            setSearchValue(`?type=${checked}`)
+            setTablet(false)
+        }else if (checked === "Tablet") {
+            setTablet(!tablet)
+            setSearchValue(`?type=${checked}`)
+            setSmartPhone(false)
+        }
     }
     // console.log(searchValue);
 
     // console.log(allProducts);
+    console.log(smartphone);
+    console.log(tablet);
     return (
         <div>
             <Navbar></Navbar>
@@ -98,12 +116,13 @@ const AllProducts = () => {
                     <div className="mt-4 space-y-3">
                         <h1 className="text-center">Type</h1>
                         <div className="flex items-center gap-5">
-                            <input onChange={handleCheckboxChange} type="checkbox" value="Smartphone" checked={`${smartphone ? "checked" : ""}`} className="checkbox" /> <span>Smartphone</span>
+                            <input onChange={handleCheckboxChange} type="checkbox" value="Smartphone" checked={smartphone} className="checkbox" /> <span>Smartphone</span>
                         </div>
                         <div className="flex items-center gap-5">
-                            <input type="checkbox" value="Tablet" checked={`${tablet ? "checked" : ""}`} className="checkbox" /> <span>Tablet</span>
+                            <input onChange={handleCheckboxChange} type="checkbox" value="Tablet" checked={tablet} className="checkbox" /> <span>Tablet</span>
                         </div>
                     </div>
+                    <Brands></Brands>
                 </div>
                 <div className="flex-[3] grid grid-cols-3 gap-5">
                     {
