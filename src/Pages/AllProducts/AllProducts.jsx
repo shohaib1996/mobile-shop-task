@@ -18,7 +18,7 @@ const AllProducts = () => {
     const { data: allProducts = [], refetch, isLoading } = useQuery({
         queryKey: ["allProducts"],
         queryFn: async () => {
-            const res = await axios.get(`http://localhost:5000/mobiles${searchValue}`)
+            const res = await axios.get(`https://mobile-shop-server-phi.vercel.app/mobiles${searchValue}`)
             const data = await res.data
             return data
         }
@@ -26,7 +26,7 @@ const AllProducts = () => {
     const { data: brandsName = [] } = useQuery({
         queryKey: ["brandsName"],
         queryFn: async () => {
-            const res = await axios.get(`http://localhost:5000/mobiles`)
+            const res = await axios.get(`https://mobile-shop-server-phi.vercel.app/mobiles`)
             const data = await res.data
             return data
         }

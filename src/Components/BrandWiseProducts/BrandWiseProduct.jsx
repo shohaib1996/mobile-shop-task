@@ -12,7 +12,7 @@ const BrandWiseProduct = () => {
     const { data: brandProducts = [] } = useQuery({
         queryKey: ["brandProducts"],
         queryFn: async () => {
-            const res = await axios.get(`http://localhost:5000/mobiles?brand=${brand}`)
+            const res = await axios.get(`https://mobile-shop-server-phi.vercel.app/mobiles?brand=${brand}`)
             const data = await res.data
             return data
         }
