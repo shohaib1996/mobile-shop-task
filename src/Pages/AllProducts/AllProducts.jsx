@@ -4,6 +4,8 @@ import Navbar from "../../Shared/Navbar/Navbar/Navbar";
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import { FaSearch } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
+import Footer from "../../Shared/Footer/Footer";
+import Spinner from "../../Components/Spinner/Spinner";
 
 
 
@@ -13,7 +15,7 @@ const AllProducts = () => {
     const [smartphone, setSmartPhone] = useState(false)
     const [tablet, setTablet] = useState(false)
     const [selectedBrand, setSelectedBrand] = useState("")
-    const { data: allProducts = [], refetch } = useQuery({
+    const { data: allProducts = [], refetch, isLoading } = useQuery({
         queryKey: ["allProducts"],
         queryFn: async () => {
             const res = await axios.get(`http://localhost:5000/mobiles${searchValue}`)
@@ -105,17 +107,21 @@ const AllProducts = () => {
     // console.log(searchValue);
 
     // console.log(allProducts);
-    console.log(smartphone);
-    console.log(tablet);
+    // console.log(smartphone);
+    // console.log(tablet);
+    if(isLoading){
+        return <Spinner></Spinner>
+    }
+
     return (
         <div>
             <Navbar></Navbar>
-            <div className="flex flex-col lg:flex-row gap-5 max-w-5xl mx-auto my-12">
-                <div className="drawer">
+            <div className="flex flex-col lg:flex-row gap-5 max-w-6xl mx-auto my-12">
+                <div className="drawer flex lg:hidden">
                     <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
                         {/* Page content here */}
-                        <label htmlFor="my-drawer" className="btn btn-primary drawer-button">Open drawer</label>
+                        <label htmlFor="my-drawer" className="btn btn-primary drawer-button ml-5">Open drawer</label>
                     </div>
                     <div className="drawer-side z-40">
                         <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay "></label>
@@ -250,6 +256,7 @@ const AllProducts = () => {
 
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

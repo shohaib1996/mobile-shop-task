@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { FaCartPlus, FaRegHeart } from "react-icons/fa";
+import { FaCartPlus, FaEye, FaRegHeart } from "react-icons/fa";
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
@@ -31,8 +31,21 @@ const FeatureProducts = () => {
             </div>
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={10}
+                breakpoints={{
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    }
+                }}
                 freeMode={true}
                 pagination={{
                     clickable: true,
@@ -52,12 +65,15 @@ const FeatureProducts = () => {
                                         <h2 className="card-title">{phone.name}</h2>
                                         <p>${phone.price}</p>
                                     </div>
-                                    <div className="absolute flex items-center gap-3 justify-center top-1/2 left-28 transform transition ease-in-out duration-300 translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                                    <div className="absolute flex items-center gap-3 justify-center top-1/2 left-32 lg:left-20 md:32 transform transition ease-in-out duration-300 translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
                                         <button className="btn btn-primary">
                                             <FaRegHeart></FaRegHeart>
                                         </button>
                                         <button className="btn btn-primary">
                                             <FaCartPlus></FaCartPlus>
+                                        </button>
+                                        <button className="btn btn-primary">
+                                            <FaEye></FaEye>
                                         </button>
                                     </div>
 
