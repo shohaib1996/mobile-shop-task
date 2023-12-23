@@ -1,8 +1,9 @@
-# React + Vite
+# live site: https://chimerical-dango-33041c.netlify.app/
+# Server: https://github.com/shohaib1996/mobile-shop-server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# For Install in your local setup: 
+# step-1: git clone https://github.com/shohaib1996/mobile-shop-task.git  (to your command prompt)
+# step-2: After clone you have to go the folder and open it with VS code
+# step-3: Then run the terminal by Ctrl + j 
+# step-4: npm install (to install all package)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
